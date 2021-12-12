@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.body {
+  line-height: 1.7;
+}
+
+.logo {
+  width: 125px;
+  height: 125px;
+  margin-top: 0px;
+}
+
+.logo h1:hover {
+  color: #ff6633;
+  transform: scale(1.6);
+  transition-duration: 0.3s;
+}
+
+.header {
+  max-width: cover;
+  margin: 0 auto;
+  padding: 0 4%;
+  font-weight: 900;
+}
+
+.main-nav {
+  list-style: none;
+  display: flex;
+  font-size: 1.3rem;
+  margin-top: 45px;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+
+.main-nav li:hover {
+  color: white;
+  transform: scale(1.6);
+  transition-duration: 0.3s;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: rgba(255, 140, 0, 0.65);
+}
+
+.big-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.homeContent {
+  text-align: center;
+  background-color: black;
+}
+
+#home {
+  background-color: black;
+  background-position: top;
+}
+
+.homeTitle {
+  font-weight: 900;
+  font-size: 4ex;
+  color: White;
+  text-align: center;
+  height: 10em;
+  display: flex;
+  justify-content: top;
+
+  margin-left: 0px;
+  position: relative;
+
+  animation: key 0.3s ease infinite alternate;
+}
+@keyframes key {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.main-home {
+  list-style: none;
+  margin-left: 36px;
+  justify-content: space-between;
+}
+.secondtitle {
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.homeTitle h1:hover {
+  color: black;
+}
+
+.homelogo {
+  width: 10px;
+  height: 10px;
+}
+
+.bodyContent {
+  color: orange;
+  padding: auto;
+}
+
+footer {
+  background: black;
+  text-align: center;
+  padding: 70px 0;
+}
+
+footer p {
+  color: white;
+  font-size: 0.875px;
+}
+
+.bodyContent ul {
+  display: flex;
+  overflow-x: scroll;
+  margin: 0;
+  padding: 0;
+  margin-top: 0%;
+}
+.bodyContent li {
+  min-width: 40%;
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+}
+
+.bodyContent img {
+  border: 5px solid black;
+}
+
+video {
+  position: absolute;
+  width: 97%;
+
+  left: 1.5%;
+  margin-top: 1%;
+}
+
+div#fashion {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenttitle {
+  color: white;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.gallery {
+  margin-top: 2px;
+}

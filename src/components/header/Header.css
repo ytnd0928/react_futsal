@@ -1,0 +1,44 @@
+.logo {
+    width: 125px;
+    height: 125px;
+    margin-top: 0px;
+  }
+  
+  .logo h1:hover {
+    color: #ff6633;
+    transform: scale(1.6);
+    transition-duration: 0.3s;
+  }
+  
+  .header {
+    max-width: cover;
+    margin: 0 auto;
+    padding: 0 4%;
+    font-weight: 900;
+  }
+  
+  .main-nav {
+    list-style: none;
+    display: flex;
+    font-size: 1.3rem;
+    margin-top: 45px;
+  }
+  .main-nav li {
+    margin-left: 36px;
+  }
+  
+  .main-nav li:hover {
+    color: white;
+    transform: scale(1.6);
+    transition-duration: 0.3s;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header {
+    background-color: rgba(255, 140, 0, 0.65);
+  }
+  
